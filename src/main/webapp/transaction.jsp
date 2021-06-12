@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Transaction</title>
 
 
 
@@ -136,7 +136,7 @@
 
  
 <option value=<%= cus.getId()%>,<%= cus.getName()%>,<%= cus.getEmail()%>,<%= cus.getBalance()%> >
-Name = <%= cus.getName()%> Account Number = <%= cus.getId()%></option>
+ Account Number: <%= cus.getId()%> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name: <%= cus.getName()%> </option>
  <%
     	}
     }
